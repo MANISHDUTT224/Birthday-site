@@ -1,0 +1,64 @@
+body{
+    font-family:"Happy Monkey";
+    color:white;
+    background:linear-gradient(rgb(0,137,247),rgba(16, 15, 15, 0.638));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+h1,p{
+    text-shadow: 0px 0px 1px black;
+}
+#byear{
+    background-color: black;
+    border-radius: 5%;
+    padding: 10px;
+}
+#bdate{
+    background-color:black;
+    padding: 5px;
+    margin-top: -5px;
+    border-radius: 5%;
+}
+#image{
+    width:150px;
+    border-radius: 50%;
+    border:6px solid black;
+}
+.giftcovimg{
+    margin: 0 auto;
+    border: 6px solid white;
+    height: 400px;
+    width:400px;
+    border-radius: 10px;
+    background-image: url("gift-cover.jpg");
+    background-size: cover;
+}
+.giftcovimg1{
+    margin: 0 auto;
+    border: 6px solid white;
+    height: 400px;
+    width:400px;
+    border-radius: 10px;
+    background-image: url("gift-cover.jpg");
+    background-size: cover;
+}
+#giftcovimghappy:hover{
+    background-image: url("happy.gif");
+}
+#giftcovimghot:hover{
+    background-image: url("wink.gif");
+}
+#giftcovimggenius:hover{
+    background-image: url("genius.gif");
+    background-position: center;
+}
+#giftcovimgbadass:hover{
+    background-image: url("badass.gif");
+    background-position: center;
+}
+#giftcovimgcheers:hover{
+    background-image: url("cheers.gif");
+    height: 200px;
+}
